@@ -35,7 +35,7 @@
 2. 让部分国产浏览器默认采用高速模式渲染页面：（目前仅360浏览器支持）`<meta name="renderer" content="webkit">`
 3. 引入 [Respond.js](https://github.com/scottjehl/Respond) 配合，实现对媒体查询（media query）的支持。
 4. 引入 [html5shiv.js](https://github.com/aFarkas/html5shiv) 解决HTML5提出的新的元素不被IE6-8识别，这些新元素不能作为父节点包裹子元素，并且不能应用CSS样式。
-```javascript
+```html
 <!--[if lt IE 9]>
   <script type="text/javascript" src="你的js路径/Respond.js"></script>
   <script type="text/javascript" src="你的js路径/html5shiv.js"></script>
@@ -65,7 +65,7 @@
 5. 方便其他设备解析（如屏幕阅读器、盲人阅读器、移动设备）以意义的方式来渲染网页；
 
 ### 2.1.2 语义化标签
-```javascript
+```html
 <!-- 常用的语义化标签 -->
 <header>定义页眉</header>
 <nav>定义导航</nav>
@@ -160,7 +160,7 @@
 | animation-direction | 规定动画是否在下一周期逆向地播放。默认是 "normal"。可取值：normal/alternate |
 | animation-play-state | 规定动画是否正在运行或暂停。默认是 "running"。 |
 
-```javascript
+```css
 /* 定义动画 */
 .animated{
   animation-name: myfirst;
@@ -200,7 +200,7 @@
 1. [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ### 2.2.4 CSS3 多媒体查询
-```javascript
+```html
 <!-- 设置meta标签 -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximun-scale=1.0">
 ```
@@ -211,7 +211,7 @@
 4. maximum-scale：允许用户缩放到的最大比例（默认设置为1.0）
 5. user-scalable：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
 
-```javascript
+```html
 <!-- 使用媒体类型 -->
 <link rel="stylesheet" type="text/css" media="screen and(max-width:960px)" href="phone.css">
 
@@ -306,7 +306,7 @@ html5引入`Web SQL Database`概念，它使用 SQL 来操纵客户端数据库�
 ## 2.4 三维、图形及特效
 ### 2.4.1 Canvas
 使用`canvas`(通常为`JavaScript`)在其中绘制图形的 HTML 元素。
-```javascript
+```html
 <!-- 标签定义图形，比如图表和其他图像，必须使用脚本来绘制图形 -->
 <canvas id="myCanvas" width="500px" height="500px"></canvas>
 
@@ -330,7 +330,7 @@ html5引入`Web SQL Database`概念，它使用 SQL 来操纵客户端数据库�
 4. SVG图像在放大或缩小（改变尺寸）的情况下，其图形质量不会受受损失。
 5. SVG是W3C的一个标准。
 
-```javascript
+```html
 <!-- svg画个半径为50的圆 -->
 <svg enable-background="new 0 0 145 145" id="Layer_1" version="1.1" viewBox="0 0 145 145" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <circle id="redcircle" cx="50" cy="50" r="50" fill="red" />
@@ -356,7 +356,7 @@ html5引入`Web SQL Database`概念，它使用 SQL 来操纵客户端数据库�
 ## 2.5 网页多媒体
 多媒体指的是音效、音乐、视频和动画。
 ### 2.5.1 Video
-```javascript
+```html
 <!-- 标签中的Controls,可以使得播放器工具栏可见 -->
 <video controls width="500px" id="vid">
   <source src="vid.mp4" />
@@ -376,7 +376,7 @@ html5引入`Web SQL Database`概念，它使用 SQL 来操纵客户端数据库�
 | width | pixels | 设置视频播放器的宽度。 |
 
 ### 2.5.2 Audio
-```javascript
+```html
 <!-- 简单的 HTML 5 音频 -->
 <audio src="someaudio.wav">
   您的浏览器不支持 audio 标签。
@@ -406,7 +406,7 @@ html5引入`Web SQL Database`概念，它使用 SQL 来操纵客户端数据库�
 
 ### 2.6.2 Camera API
 通过`Camera API`,你可以使用手机的摄像头拍照,然后把拍到的照片发送给当前网页.这些操作主要是通过一个input元素来实现的,其中该元素的type属性必须为"file",accept属性要允许图片格式。
-```javascript
+```html
 <input type="file" id="take-picture" accept="image/*">
 ```
 
