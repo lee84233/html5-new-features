@@ -9,55 +9,59 @@
 3. [HTML5 支持查询](https://caniuse.com/)
 4. [HTML5 移动设备支持查询](http://mobilehtml5.org/)
 
+---
+
 ***目录：***
 
-HTML5新特性
-1. HTML5简介
-  1.1 什么是html5
-  1.2 html5新特点
-  1.3 html5兼容性
-    1.3.1 IE兼容模式
-2. HTML5的新特性HTML5的新特性
-  2.1 语义化
-    2.1.1 语义化意义
-    2.1.2 语义化标签
-  2.2 CSS3
-    2.2.1 转换、变形和过渡
-      2D新转换属性
-      2D转换方法
-      3D新转换属性
-      3D转换方法
-      过渡
-    2.2.2 动画
-    2.2.3 伸缩布局盒模型
-    2.2.4 CSS3 多媒体查询
-    2.2.5 伪类、伪元素
-    2.2.6 其他新特性
-  2.3 本地存储
-    2.3.1 永久本地存储：localStorage
-    2.3.2 会话级别的本地存储：sessionStorage
-    2.3.4 Web SQL Database
-    2.3.5 Indexeddb
-    2.3.6 离线缓存（Application Cache）
-  2.4 三维、图形及特效
-    2.4.1 Canvas
-    2.4.2 SVG
-    2.4.3 WebGL
-  2.5 网页多媒体
-    2.5.1 Video
-    2.5.2 Audio
-  2.6 设备访问、性能与集成
-    2.6.1 桌面通知 (Notifications)
-    2.6.2 Camera API
-    2.6.3 全屏(Fullscreen)API
-    2.6.4 WebSocket
-    2.6.5 Web Worker
-    2.6.6 更多属性
-3. 周边
-  3.1 当下流行的 js 框架
-  3.2 当下流程的UI框架
-  3.3 构建工具&自动化 相关
-4.写在后面，错误和不足之处欢迎指正:smile:
+HTML5新特性  
+1. HTML5简介  
+  1.1 什么是html5  
+  1.2 html5新特点  
+  1.3 html5兼容性  
+    1.3.1 IE兼容模式  
+2. HTML5的新特性HTML5的新特性  
+  2.1 语义化  
+    2.1.1 语义化意义  
+    2.1.2 语义化标签  
+  2.2 CSS3  
+    2.2.1 转换、变形和过渡  
+      2D新转换属性  
+      2D转换方法  
+      3D新转换属性  
+      3D转换方法  
+      过渡  
+    2.2.2 动画  
+    2.2.3 伸缩布局盒模型  
+    2.2.4 CSS3 多媒体查询  
+    2.2.5 伪类、伪元素  
+    2.2.6 其他新特性  
+  2.3 本地存储  
+    2.3.1 永久本地存储：localStorage  
+    2.3.2 会话级别的本地存储：sessionStorage  
+    2.3.4 Web SQL Database  
+    2.3.5 Indexeddb  
+    2.3.6 离线缓存（Application Cache）  
+  2.4 三维、图形及特效  
+    2.4.1 Canvas  
+    2.4.2 SVG  
+    2.4.3 WebGL  
+  2.5 网页多媒体  
+    2.5.1 Video  
+    2.5.2 Audio  
+  2.6 设备访问、性能与集成  
+    2.6.1 桌面通知 (Notifications)  
+    2.6.2 Camera API  
+    2.6.3 全屏(Fullscreen)API  
+    2.6.4 WebSocket  
+    2.6.5 Web Worker  
+    2.6.6 更多属性  
+3. 周边  
+  3.1 当下流行的 js 框架  
+  3.2 当下流程的UI框架  
+  3.3 构建工具&自动化 相关  
+4.写在后面，错误和不足之处欢迎指正:smile:  
+
+---
 
 # 1. HTML5简介
 
