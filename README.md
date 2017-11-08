@@ -391,7 +391,7 @@ html5引入`Web SQL Database`概念，它使用 SQL 来操纵客户端数据库�
 2. [HTML5 SVG 详解1](http://www.w3school.com.cn/html5/html_5_svg.asp)
 3. [HTML5 SVG 详解2](http://www.runoob.com/svg/svg-inhtml.html)
 4. [D3-基于svg的丰富图表1](https://github.com/d3/d3)
-5. [PykCharts-基于svg的丰富图表1](https://github.com/pykih/PykCharts.js)
+5. [PykCharts-基于svg的丰富图表2](https://github.com/pykih/PykCharts.js)
 
 ### 2.4.3 WebGL
 1. `WebGL` 是一种 3D 绘图标准，这种绘图技术标准允许把 `JavaScript` 和 `OpenGL ES 2.0` 结合在一起，通过增加 `OpenGL ES 2.0` 的一个 `JavaScript` 绑定，`WebGL` 可以为 `HTML5 Canvas` 提供硬件 3D 加速渲染，这样 Web 开发人员就可以借助系统显卡来在浏览器里更流畅地展示3D场景和模型了，还能创建复杂的导航和数据视觉化。
